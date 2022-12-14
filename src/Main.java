@@ -12,21 +12,24 @@ public class Main {
             int first = scanner.nextInt();
             if (first == randomNumber) {
                 System.out.println("Ви вгадали");
-            } else if (randomNumber != first) {
+                break;
+            }if (randomNumber != first) {
                 System.out.println("Спробуйте ще раз");
             }
             System.out.println("Вкажіть друге число");
             int second = scanner.nextInt();
             if (second == randomNumber) {
                 System.out.println("Ви вгадали");
-            } else if (second != randomNumber) {
+                break;
+            } if (second != randomNumber) {
                 System.out.println("Спробуйте ще раз");
             }
             System.out.println("Вкажіть третє число");
             int third = scanner.nextInt();
             if (third == randomNumber) {
                 System.out.println("Ви вгадали");
-            } else if (third != randomNumber) {
+                break;
+            }if (third != randomNumber) {
                 System.out.println("Ви програли");
             }
             System.out.println("Було загадане число " + randomNumber);
